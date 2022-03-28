@@ -3,7 +3,7 @@ project(lab01_Inheritance)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(.)
+include_directories(src)
 
 add_executable(lab01_Inheritance
-        Lab01Inheritance.cpp)
+        src/Base.cpp src/Base.h src/Derived1.cpp src/Derived1.h src/Derived2.cpp src/Derived2.h src/main.cpp)
